@@ -11,7 +11,7 @@ app.use(parser.json());
 var PORT = process.env.PORT || 8080;
 
 
-app.use('/api', route);
+app.use('/', route);
 
 
 
