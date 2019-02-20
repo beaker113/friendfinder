@@ -19,7 +19,7 @@
   "homepage": "https://github.com/beaker113/friendfinder#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "jquery": "^3.3.1"
   }
- 
 }
