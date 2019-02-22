@@ -19,9 +19,9 @@ route.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/data/friends.js'));
 });
 route.post('/api/friends', function(req, res) {
-    res.json(data.Waitlists)
+    res.json(data.waitlists)
 })
-// app.use('/api', route)
+app.use('/api', route)
 
 module.exports = route
 
