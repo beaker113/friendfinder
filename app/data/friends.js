@@ -1,4 +1,4 @@
-var jquery = require('jquery')
+
 
 var friends = [{
     name: "allen",
